@@ -1,0 +1,84 @@
+@charset "utf-8";
+/*  Mood Board Template Styling ----------------------------------*/
+body { font:12px/18px Verdana, Tahoma, Geneva, Arial, sans-serif; margin:0; }
+	
+h2, h3 { border-bottom:1px solid #333; margin:0 0 18px; padding-bottom:5px; clear:both; }
+	
+img { border:5px solid #999999; margin:0 5px 5px 0; }
+	
+p { margin:0 0 18px; }
+	
+#container { width:980px; margin:0 auto; }
+
+#header { width:980px; height:144px; margin:auto; position:relative; background-color:#76B295; color:#FAFAFA; border-bottom:5px solid #999999; clear:both; float:none;} 
+
+#logo { margin:10px;position:absolute;}
+
+#explore { width:250px; height:100px; margin-left:730px; margin-top:20px;position:absolute; float:left; clear:both;}
+#explore a:link {  text-decoration:none;} 
+#explore a:visited { text-decoration:none;}
+#explore a:hover { text-decoration:none;}
+
+#tagline {color:#FAFAFA; position:relative; text-align:left; float:left; margin-left:14px; margin-top:104px; }
+
+#tagline h1 { margin-left:10px; margin-top:14px; margin-right:10px; margin-bottom:10px; color:#FAFAFA; text-align:left; font-size:18px; font-family:Verdana; font-style:italic; font-weight:bold; clear:both;}
+	
+		
+#main { width:640px; margin-right:20px;float:left; margin-top:10px;}
+		
+#sidebar { width:300px; float:left;padding-right:6px;margin-top:10px;
+		padding-left:6px; border-left:solid 2px #10733B; border-right:solid 2px #10733B; }
+		
+.sidebar-images { text-align:center; margin-left:auto; margin-right:auto;margin-top:10px; margin-bottom:10px;float:none;position:relative;width:200px;height:300px;padding:0px;border:none;}
+
+.sidebar-icons { text-align:center; margin-left:auto; margin-right:auto;margin-top:10px; margin-bottom:10px;float:none;position:relative;width:250px; height:150px; padding:0px;border:none;}
+		
+.images { text-align:center; margin:auto;float:left;position:relative;padding:0px;border:none;}
+		
+#footer { padding:10px; clear:both; height:90px; }
+		
+#footer p { margin:0; font-size:25px; height:50px;}
+#footerBox1 { padding:5px; text-align:left; margin:10px; float:left; position:relative;width:420px;}
+
+#footerBox2 {padding:5px; text-align:right; margin-right:20px;margin-top:10px; float:right; position:relative;width:420px;}
+
+#typography small { font-family:Verdana, Tahoma, Geneva, Arial, sans-serif; margin:0; font-size:12px; font-weight:normal; }
+			
+.no-border { border:none; }
+.center {text-align:center;}
+/* 	Sample Styles
+	----------------------------------*/
+	
+	/* background color */
+body { background-color:#FAFAFA; }
+	
+	/* Links*/
+#content a:link { color:#10733b; text-decoration:none; font-weight:bold; padding:0 1px; }
+#content a:visited { color:#10733b; text-decoration:none; font-weight:bold; padding:0 1px; }
+#content a:hover { background-color:#FF8A68; color:#FFFFFF; text-decoration:none;  }
+		
+	/* 	Sample Color Palette ----------------------------------*/
+		
+.color1, .color2, .color3, .color4, .color5, .color6 { border:5px solid #999999; width:80px; height:80px; float:left; margin-right:10px; }
+.color1 span,.color2 span,.color3 span,.color4 span,.color5 span,.color6 span { text-align:center; }
+		.color1 { background-color:#76B295; }
+		.color2 { background-color:#6ac28a; }
+		.color3 { background-color:#FF8A6B; }
+		.color4 { background-color:#FFE49C; }
+		.color5 { background-color:#6973D2; }
+		.color6 { background-color:#E8E5DD; }
+		
+	/* 	Sample Typography----------------------------------*/
+		#typography h1 { font:30px Georgia, Georgia, Palatino, "Palatino Linotype", Cambria, serif; font-weight:bold; }
+		#typography h2 {  color:#10733B; font:24px Georgia, Palatino, "Palatino Linotype", Cambria, serif; font-weight:bold; border:none; }
+		#typography h3 { color:#6973D2; font:18px Verdana, Tahoma, Geneva, Arial, sans-serif; font-weight:bold; border:none; }
+		#typography p { font:13px/18px Verdana, Tahoma, Geneva, Arial, sans-serif; }
+		
+	/* Footer*/
+#footer { background-color:#76B295; border-top:5px solid #999999; }
+
+/*To get rid of link decorations!*/
+#footer a:link { text-decoration:none;} 
+#footer a:visited {text-decoration:none;}
+#footer a:hover { text-decoration:none;}
+

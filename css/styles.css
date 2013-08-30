@@ -1,0 +1,249 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* CSS reset */
+	/* http://meyerweb.com/eric/tools/css/reset/ 
+	   v2.0 | 20110126
+	   License: none (public domain)
+	*/
+	
+	html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, embed, 
+	figure, figcaption, footer, header, hgroup, 
+	menu, nav, output, ruby, section, summary,
+	time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+	/* HTML5 display-role reset for older browsers */
+	article, aside, details, figcaption, figure, 
+	footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+	body {
+		line-height: 1;
+		text-align:center;
+		background-color:#003366;
+	}
+	ol, ul {
+		list-style: none;
+		color:#333;
+	}
+	blockquote, q {
+		quotes: none;
+	}
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none;
+	}
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+	a:link {
+		text-decoration:none;
+		color:#003366;
+	}
+	a:visited {
+		text-decoration:none;
+		color:#6699CC;
+	}
+	a:hover {
+		text-decoration:none;
+		color:#CC6633;
+	}
+	
+
+	
+	
+	/* End CSS reset */
+	
+	#container {
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-color: #003366;
+	
+	
+}
+#header {
+	margin: 0px;
+	padding: 0px;
+	height: 190px;
+	width: 100%;
+	background-color: #000000;
+	border-bottom: thin #ffffff solid;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	clear:both;
+}
+#main {
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-color: #003366;
+	position:relative;
+	clear:both;
+	
+	
+}
+#left {
+	padding: 10px;
+	width: 28%;
+	height: 290px;
+	margin: 20px;
+	position: relative;
+	background-color: #003366;
+	border: thin #FFFFFF solid;
+	float:left;
+	
+}
+#center {
+	padding: 10px;
+	width: 28%;
+	height:285px;
+	margin: 20px;
+	position:relative;
+	background-color:#003366;
+	border:thin #FFFFFF solid;
+	float:left;
+	
+}
+#right {
+	padding: 10px;
+	width: 28%;
+	height:285px;
+	margin: 20px;
+	position:relative;
+	background-color:#003366;
+	border:thin #FFFFFF solid;
+	float:left;
+	
+	
+}
+#headerImage {
+	width: 25%;
+	position: relative;
+	left: 0px;
+	top: 0px;	
+}
+.images { 
+	float: left;
+	margin:20px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	padding: 0px;
+	
+	
+}
+#name {
+	width: 60%;
+	padding: 20px;
+	margin: 20px;
+	position: relative;
+	
+	left: 200px;
+	top: 20px;		
+	
+}
+#icons {
+	margin: 10px;
+	position: relative;
+	
+	width: 15%;
+	height: 80%;
+	float: none;
+	left: 80%;
+	bottom: 168px;
+	clear:both;
+}
+
+#footer {
+	padding: 0px;
+	height: 122px;
+	width: 100%;
+	position: relative;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-color: #000000;
+	clear:both;	
+}
+#footer p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-align:center;
+	}
+	
+p, ul, ol {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	color: #FFFFFF;
+	line-height: 20px;
+	text-align:left;
+}
+
+
+#name p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFF66;
+	line-height: 30px;
+	text-align:left;
+	
+}
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFF66;
+	line-height: 24px;
+	text-align:left;
+	padding:10px;
+	
+	
+}
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	line-height: 18px;
+	text-align:center;
+	padding:6px;
+}
+
+
